@@ -13,6 +13,5 @@ fi
 
 git pull
 cp ./.aliases ~
-cp ./.zshrc ~
 source ~/.zshrc
 
