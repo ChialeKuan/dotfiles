@@ -17,4 +17,4 @@ fi
 
 git pull
 cp ./aliases.zsh ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/
-
+cp ./.vimrc ~/.vimrc
