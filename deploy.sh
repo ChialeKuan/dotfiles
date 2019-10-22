@@ -1,5 +1,10 @@
 #!/bin/bash
 
+apt = "apt"
+if [[ -f /usr/local/bin/brew ]]; then
+    cmd="brew"
+fi
+
 if [ `command -v zsh` ];
 then
     echo "zsh 已经安装"
