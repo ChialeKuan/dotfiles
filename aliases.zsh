@@ -1,3 +1,11 @@
+if [[ -f /usr/local/bin/brew ]]; then 
+    cmd="brew cask"
+    alias up="export ALL_PROXY=socks5://127.0.0.1:1080;brew update;brew cleanup;brew upgrade;brew cask upgrade;unset ALL_PROXY"
+else
+    cmd="apt"
+    alias up="apt update; apt upgrade; apt autoremove"
+fi
+
 alias c="clear"
 alias q="exit"
 
@@ -16,10 +24,9 @@ alias ts="trans es:en -p"
 alias hgrep="history|grep"
 alias p="python3"
 
-alias up="export ALL_PROXY=socks5://127.0.0.1:1080;brew update;brew cleanup;brew upgrade;brew cask upgrade;unset ALL_PROXY"
-alias in="brew cask install"
+alias in="${cmd} install"
 alias bin="brew install"
-alias un="brew cask uninstall"
+alias un="${cmd} uninstall"
 alias bun="brew uninstall"
  
 alias proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
