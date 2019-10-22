@@ -17,6 +17,6 @@ else
 fi
 
 git pull
-cp ./.aliases ~
+cp ./aliases.zsh $ZSH_CUSTOM/aliases.zsh
 source ~/.zshrc
 
