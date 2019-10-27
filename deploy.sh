@@ -2,7 +2,7 @@
 
 apt = "brew"
 if [[ -f /bin/apt ]]; then
-    cmd="apt"
+    cmd = "apt"
 fi
 
 if [ `command -v zsh` ];
