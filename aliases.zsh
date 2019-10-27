@@ -25,9 +25,9 @@ alias hgrep="history|grep"
 alias p="python3"
 
 alias in="${cmd} install"
-alias bin="brew install"
+alias bcin="brew cask install"
 alias un="${cmd} uninstall"
-alias bun="brew uninstall"
+alias bcun="brew cask uninstall"
  
 alias proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
 alias unproxy="unset ALL_PROXY"
