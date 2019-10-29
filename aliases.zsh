@@ -9,13 +9,13 @@ fi
 alias c="clear"
 alias q="exit"
 
-alias v="vi ~/.aliases"
-alias re="source ~/.zshrc"
+alias v="vi ~/.oh-my-zsh/custom/aliases.zsh"
+alias re="source ~/.oh-my-zsh/custom/aliases.zsh"
 alias rr="rm -r"
 
 alias vultr="ssh root@140.82.7.62"
 
-alias ggg='git add .;git commit -m $(date "+%Y%m%d")'
+alias ggg='git add .;git commit -m $(date "+%Y%m%d");git push'
 
 alias tc="trans en:zh-CN"
 alias t="trans"
