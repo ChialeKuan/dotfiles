@@ -1,6 +1,6 @@
 if [[ -f /usr/local/bin/brew ]]; then 
     cmd="brew cask"
-    alias up="export ALL_PROXY=socks5://127.0.0.1:1080;brew update;brew cleanup;brew upgrade;brew cask upgrade;unset ALL_PROXY"
+    alias up="export ALL_PROXY=socks5://127.0.0.1:1080;brew update;brew upgrade;brew cleanup;brew cask upgrade;unset ALL_PROXY"
 else
     cmd="apt"
     alias up="apt update; apt upgrade; apt autoremove"
