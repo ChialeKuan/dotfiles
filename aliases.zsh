@@ -10,7 +10,7 @@ fi
 alias c="clear"
 alias q="exit"
 
-alias v="vi ~/.oh-my-zsh/custom/aliases.zsh"
+alias v="vim ~/.oh-my-zsh/custom/aliases.zsh"
 alias re="source ~/.oh-my-zsh/custom/aliases.zsh"
 alias rr="rm -r"
 alias o="open ."
