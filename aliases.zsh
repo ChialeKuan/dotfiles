@@ -11,15 +11,23 @@ alias pup="pip-review --local --interactive"
 alias c="clear"
 alias q="exit"
 
-alias v="vim ~/.oh-my-zsh/custom/aliases.zsh"
+alias va="vim ~/.oh-my-zsh/custom/aliases.zsh"
 alias re="source ~/.oh-my-zsh/custom/aliases.zsh"
 alias rr="rm -r"
 alias o="open ."
 
-alias vultr="ssh root@chialekuan.com"
+alias v="ssh root@140.82.7.62"
+alias vf="sftp root@140.82.7.62"
 alias ggg='git add .;git commit -m $(date "+%Y%m%d");git push'
-alias iu="ssh guanjia@seclab.soic.indiana.edu"
-alias tp="ssh root@192.168.3.12"
+alias iu='ssh guanjia@seclab.soic.indiana.edu'
+alias burrow='ssh guanjia@burrow.sice.indiana.edu'
+alias tp='ssh root@192.168.3.12'
+alias car='ssh guanjia@carbonate.uits.iu.edu'
+alias carf='sftp guanjia@carbonate.uits.iu.edu'
+alias kj='ssh guanjia@kj.luddy.indiana.edu'
+alias gh='ssh guanjia@gh.luddy.indiana.edu'
+alias al='ssh guanjia@al.luddy.indiana.edu'
+alias qt='ssh guanjia@quartz.uits.iu.edu'
 
 alias t="trans"
 alias tz="trans en:zh-CN"
@@ -28,7 +36,7 @@ alias т="trans ru:en -p"
 
 alias pw="openssl rand -base64 12|pbcopy"
 
-alias hgrep="history|grep"
+alias hg="history|grep"
 alias p="python3"
 
 alias in="${cmd} install"
@@ -41,4 +49,4 @@ alias proxy="export ALL_PROXY=socks5://127.0.0.1:1080"
 alias unproxy="unset ALL_PROXY"
 
 alias b="system_profiler SPPowerDataType | sed -n '13,20p'"
-#alias count="system_profiler SPPowerDataType | grep 'Cycle Count' | awk '{print \$3}'; system_profiler SPPowerDataType | grep 'State' | awk '{print $ 5}'"
+#alias b="system_profiler SPPowerDataType | grep 'Cycle Count' | awk '{print \$3}'; system_profiler SPPowerDataType | grep 'State' | awk '{print $ 5}'"
